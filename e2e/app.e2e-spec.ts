@@ -13,5 +13,7 @@ describe('ecommerce-app App', () => {
   it('should display message saying app works', () => {
     //JESCARDD
     expect(page.getParagraphText()).toEqual('app works!');
+    page.navigateTo();
+    // dwad dwa dwa 2
   });
 });
