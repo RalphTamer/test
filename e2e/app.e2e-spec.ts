@@ -9,6 +9,7 @@ describe('ecommerce-app App', () => {
 
 
   //rerfe
+  //branch 1 fejaifoeasflew
   it('should display message saying app works', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
