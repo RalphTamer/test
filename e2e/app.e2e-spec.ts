@@ -7,6 +7,8 @@ describe('ecommerce-app App', () => {
     page = new EcommerceAppPage();
   });
 
+
+  //rerfe
   it('should display message saying app works', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
