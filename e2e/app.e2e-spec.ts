@@ -7,7 +7,7 @@ describe('ecommerce-app App', () => {
     page = new EcommerceAppPage();
   });
 
-
+// feasture 2
   //rerfe
   it('should display message saying app works', () => {
     page.navigateTo();
